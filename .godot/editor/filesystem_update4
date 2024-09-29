@@ -3,3 +3,4 @@ res://scenes/player.tscn
 res://scenes/mob.tscn
 res://scripts/player.gd
 res://scripts/mob.gd
+res://scripts/main.gd

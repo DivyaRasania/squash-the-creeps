@@ -1,10 +1,12 @@
 extends CharacterBody3D
 
+# Emitted when the player was hit by a mob.
+signal hit
+
 # How fast the player moves in meters per second.
 @export var speed = 14
 @export var jump_impulse = 20
 @export var bounce_impulse = 16
-
 # The downward acceleration when in the air, in meters per second squared.
 @export var fall_acceleration = 75
 
@@ -62,3 +64,10 @@ func _physics_process(delta):
 				break
 
 	move_and_slide()
+
+func die():
+	hit.emit()
+	queue_free()
+
+func _on_mob_detector_body_entered(body):
+	die()
