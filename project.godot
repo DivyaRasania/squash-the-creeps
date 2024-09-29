@@ -23,6 +23,7 @@ MusicPlayer="*res://scenes/music_player.tscn"
 
 window/size/viewport_width=720
 window/size/viewport_height=540
+window/stretch/mode="viewport"
 
 [input]
 
