@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pxhjt7xbmec7"
+path="res://.godot/imported/Get Over It - Everet Almond.mp3-4d3f3cbb116623519b4c1ac930f0f0e7.mp3str"
+
+[deps]
+
+source_file="res://art/Get Over It - Everet Almond.mp3"
+dest_files=["res://.godot/imported/Get Over It - Everet Almond.mp3-4d3f3cbb116623519b4c1ac930f0f0e7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

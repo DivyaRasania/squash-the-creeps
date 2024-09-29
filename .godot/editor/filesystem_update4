@@ -4,3 +4,5 @@ res://scenes/mob.tscn
 res://scripts/player.gd
 res://scripts/mob.gd
 res://scripts/main.gd
+res://scripts/score_label.gd
+res://scenes/music_player.tscn

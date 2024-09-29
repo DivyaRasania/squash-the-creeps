@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1n5n2nbgj11a"]
+
+[ext_resource type="AudioStream" uid="uid://pxhjt7xbmec7" path="res://art/Get Over It - Everet Almond.mp3" id="1_o1p26"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_o1p26")
+volume_db = -5.0
+autoplay = true
